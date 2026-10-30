@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function() {
+        try {
+          const stored = localStorage.getItem("color-scheme");
+          const meta = document.querySelector('meta[name="color-scheme"]');
+          if (stored === "dark") {
+            meta.content = "dark";
+            document.documentElement.classList.add("dark");
+          } else if (stored === "light") {
+            meta.content = "light";
+            document.documentElement.classList.remove("dark");
+          } else {
+            meta.content = "light dark";
+            if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+              document.documentElement.classList.add("dark");
+            } else {
+              document.documentElement.classList.remove("dark");
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <title>Shivam Kumar — Full Stack Engineer & Software Architect</title>
+    <meta name="description" content="Portfolio of Shivam Kumar, Full Stack Engineer specializing in scalable web systems, modern user interfaces, and cloud-native solutions." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%236366f1'/><text x='50%' y='56%' font-family='sans-serif' font-weight='800' font-size='50' fill='white' dominant-baseline='middle' text-anchor='middle'>SK</text></svg>" />
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased selection:bg-indigo-500 selection:text-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
