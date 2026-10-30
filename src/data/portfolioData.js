@@ -1,14 +1,15 @@
+////////////////////////////introduction/////////////////////////////////////////
 export const portfolioData = {
   profile: {
     name: "Shivam Kumar",
-    role: "Full Stack Engineer & Cloud Architect",
-    tagline: "Crafting robust distributed systems, high-performance web applications, and intuitive user experiences.",
-    bio: "I am a full-stack engineer passionate about building scalable digital products from ground zero to production. With deep expertise across modern JavaScript/TypeScript ecosystems, cloud-native architectures, and distributed systems, I bridge the gap between pixel-perfect design and bulletproof backends.",
-    location: "Bengaluru, India (Available Worldwide)",
+    role: "Electronics Engineer",
+    tagline: "Working with the microcontroller Atmega1284p and Atmega328p",
+    bio: "I am a electronics engineer passionate about building scalable embadded and automatiobn products from ground zero to production. With deep expertise across arduino IDE.",
+    location: "Hapur, India (Available Worldwide)",
     status: "Available for high-impact roles & consulting",
     statusAvailable: true,
-    email: "shivam.dev.build@gmail.com",
-    github: "https://github.com",
+    email: "shivamkumarecee@gmail.com",
+    github: "shivamkumar063",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
     yearsOfExp: "4+",
@@ -16,7 +17,7 @@ export const portfolioData = {
     happyUsers: "150K+",
     codeQuality: "99.9%"
   },
-
+///////////////////////////skills//////////////////////////////////////////////
   skills: [
     { name: "React 19 & Next.js", category: "frontend", level: "Advanced", icon: "Code2" },
     { name: "TypeScript", category: "frontend", level: "Expert", icon: "FileCode" },
@@ -33,7 +34,7 @@ export const portfolioData = {
     { name: "REST & GraphQL APIs", category: "architecture", level: "Expert", icon: "Cpu" },
     { name: "Web Security & Auth (JWT/OAuth)", category: "architecture", level: "Advanced", icon: "ShieldCheck" }
   ],
-
+///////////////////////////projects//////////////////////////////////////////////
   projects: [
     {
       id: "money-tracker",
@@ -150,7 +151,7 @@ export const portfolioData = {
       metrics: "100% WCAG AAA pass"
     }
   ],
-
+///////////////////////experience/////////////////////////////////////////////////
   experiences: [
     {
       period: "2024 — Present",
