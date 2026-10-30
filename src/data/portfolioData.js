@@ -9,7 +9,7 @@ export const portfolioData = {
     status: "Available for high-impact roles & consulting",
     statusAvailable: true,
     email: "shivamkumarecee@gmail.com",
-    github: "shivamkumar063",
+    github: "https://github.com/shivamkumar063",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
     yearsOfExp: "4+",
