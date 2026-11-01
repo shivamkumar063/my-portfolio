@@ -66,16 +66,16 @@ export const portfolioData = {
 ///////////////////////experience/////////////////////////////////////////////////
   experiences: [
     {
-      period: "2024 — Present",
-      role: "Lead Full Stack Engineer",
-      company: "Apex Digital Systems",
-      location: "Bengaluru, India (Hybrid)",
+      period: "2026 — Present",
+      role: "Electronics Engineer",
+      company: "Inficold India Private Limited",
+      location: "Hapur, India",
       type: "Full-Time",
-      description: "Architecting cloud-native web architectures, leading a 6-engineer pod, and scaling platform services to handle millions of daily events.",
+      description: "Design embedded systems for practical use, including circuit design, PCB layout, and firmware development. Collaborate with cross-functional teams to deliver innovative solutions for industrial automation and HVAC systems.",
       achievements: [
-        "Reduced p99 server response time from 380ms to 92ms by optimizing database indexing and Redis cache layers.",
-        "Pioneered migration from legacy monolithic frontend to modern React 19 architecture, improving Lighthouse Core Web Vitals to 98+.",
-        "Mentored junior engineers and instituted automated CI/CD pipeline checks, cutting deployment errors by 65%."
+        "Supervision in the NISE project form design to installation and commissioning of solar powered cold room",
+        "Estable communication protocal between VFD and embedded controller also estable communication between temperature comtrollar and embedded controller",
+        
       ]
     },
     {
