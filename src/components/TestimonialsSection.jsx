@@ -5,6 +5,10 @@ import { portfolioData } from '../data/portfolioData';
 export default function TestimonialsSection() {
   const { testimonials } = portfolioData;
 
+  if (!testimonials || testimonials.length === 0) {
+    return null;
+  }
+
   return (
     <section className="py-20 relative border-t border-slate-200/80 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-950/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
