@@ -3,8 +3,15 @@ export const portfolioData = {
   profile: {
     name: "Shivam Kumar",
     role: "Electronics Engineer",
-    tagline: "Working with the microcontroller Atmega1284p and Atmega328p",
-    bio: "I am a electronics engineer passionate about building scalable embadded and automatiobn products from ground zero to production. With deep expertise across arduino IDE.",
+    tagline: "Transforming demand & schematics into design & embedded design",
+    bio: [
+    "Hi, I'm Shivam Kumar",
+    "Electronics Engineer | Embedded Systems | Industrial automation | Technology Enthusiast",
+    "I am electronics and Communication Engineer graduated with a passion for developing innovative technologies and solve real word engineering problem",
+    "I have practical industrial experince working with elctronics system, HVAC, Solar cold room, Solar & Grid IMC, Solar and Grid BMC, Solar powered HVAC systems, embedded controllers, sensor. I enjoy exploring the connection between hardware and software to build efficient, reliable and intellegent solution",
+    "My technical interests including arduino programming, circuit design, industrial communication protocal, automation, renewable energy",
+    "I believe in continuous learning, experment with the new technologies and transform ideas into practical solution"
+  ],
     location: "Hapur, India (Available Worldwide)",
     status: "Available for high-impact roles & consulting",
     statusAvailable: true,
